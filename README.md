@@ -4,9 +4,12 @@ A simple Slack bot built in Go using [Slacker v2](https://github.com/shomali11/s
 
 ---
 ![Go](https://img.shields.io/badge/Go-1.21-blue?logo=go&logoColor=white)
-![Build Status](https://img.shields.io/github/actions/workflow/status/josiahtheprogrammer/simple-slack-bot/go.yml?branch=main)
-![Coverage](https://img.shields.io/badge/Coverage-0%25-red)
-![Release](https://img.shields.io/github/v/release/josiahtheprogrammer/simple-slack-bot)
+![Stars](https://img.shields.io/github/stars/JOSIAHTHEPROGRAMMER/simple-slack-bot?style=social)
+![Forks](https://img.shields.io/github/forks/JOSIAHTHEPROGRAMMER/simple-slack-bot?style=social)
+![Open Issues](https://img.shields.io/github/issues/JOSIAHTHEPROGRAMMER/simple-slack-bot)
+![Last Commit](https://img.shields.io/github/last-commit/JOSIAHTHEPROGRAMMER/simple-slack-bot)
+![Go Report Card](https://goreportcard.com/badge/github.com/JOSIAHTHEPROGRAMMER/simple-slack-bot)
+![Slack](https://img.shields.io/badge/Platform-Slack-blue?logo=slack&logoColor=white)
 
 ## Features
 
@@ -26,7 +29,7 @@ The bot responds only when mentioned or in direct messages.
 1. **Clone the repository**
 
 ```bash
-git clone <repolik>
+git clone https://github.com/JOSIAHTHEPROGRAMMER/simple-slack-bot.git
 cd Slack-age-bot
 ```
 
