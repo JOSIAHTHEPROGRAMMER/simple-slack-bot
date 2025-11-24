@@ -21,7 +21,7 @@ The bot responds only when mentioned or in direct messages.
 
 ## Setup
 
-1. **Clone the repository**
+#### 1. Clone the repository
 
 ```bash
 git clone https://github.com/JOSIAHTHEPROGRAMMER/simple-slack-bot.git
@@ -29,14 +29,13 @@ cd Slack-age-bot
 ```
 
 
-### 2. Create a .env file in the project root:
+#### 2. Create a .env file in the project root:
 
 ```env
-Copy code
 SLACK_BOT_TOKEN=xoxb-your-bot-token
 SLACK_APP_TOKEN=xapp-your-app-level-token
 ```
-### 3. Install dependencies and run:
+#### 3. Install dependencies and run:
 
 ```bash
 go mod tidy
