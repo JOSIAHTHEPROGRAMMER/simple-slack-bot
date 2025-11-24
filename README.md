@@ -1,0 +1,79 @@
+# Simple Slack Bot
+
+A simple Slack bot built in Go using [Slacker v2](https://github.com/shomali11/slacker) that responds to mentions and direct messages with fun commands, age calculation, and more.
+
+---
+![Go](https://img.shields.io/badge/Go-1.21-blue?logo=go&logoColor=white)
+![Build Status](https://img.shields.io/github/actions/workflow/status/josiahtheprogrammer/simple-slack-bot/go.yml?branch=main)
+![Coverage](https://img.shields.io/badge/Coverage-0%25-red)
+![Release](https://img.shields.io/github/v/release/josiahtheprogrammer/simple-slack-bot)
+
+## Features
+
+- **Hello** – Greets the user.
+- **Compliment Me** – Gives a random compliment.
+- **Roll a Dice** – Rolls a 6-sided dice.
+- **What Time Is It** – Shows the current time.
+- **I Was Born In <year>** – Calculates your age.
+- **Help** – Lists all available commands.
+
+The bot responds only when mentioned or in direct messages.
+
+---
+
+## Setup
+
+1. **Clone the repository**
+
+```bash
+git clone <repolik>
+cd Slack-age-bot
+```
+
+
+### 2. Create a .env file in the project root:
+
+```env
+Copy code
+SLACK_BOT_TOKEN=xoxb-your-bot-token
+SLACK_APP_TOKEN=xapp-your-app-level-token
+```
+### 3. Install dependencies and run:
+
+```bash
+go mod tidy
+go run main.go
+```
+
+## Slack App Permissions
+Your Slack app needs the following OAuth scopes:
+
+- app_mentions:read – Read messages that mention the bot
+
+- chat:write – Send messages as the bot
+
+- chat:write.public – Send messages in channels the bot isn’t a member of
+
+- channels:read – View public channel info
+
+- im:history & im:write – Read and send messages in direct messages
+
+- groups:history – Read messages in private channels the bot is added to
+
+- mpim:history – Read messages in group DMs
+
+## Usage
+Mention the bot in a channel or send a direct message.
+
+Use any of the commands:
+
+```less
+
+@Simple Bot hello
+@Simple Bot compliment me
+@Simple Bot roll a dice
+@Simple Bot what time is it
+@Simple Bot I was born in 2004
+@Simple Bot help
+The bot will respond with the appropriate reply.
+```
